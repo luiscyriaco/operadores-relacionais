@@ -8,4 +8,4 @@ numero = int(input("Digite um número: "))
 
 # verificando se o número é ímpar
 if numero % 2 != 0:
-    print("O número ",numero," é ímpar")
+    print("O número",numero,"é ímpar")
