@@ -9,4 +9,4 @@ numero = int(input("Digite um número: "))
 
 # verificando se o número é par
 if numero % 2 == 0:
-    print("O número ",numero," é par")
+    print("O número",numero,"é par")
