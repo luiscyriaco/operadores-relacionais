@@ -1,4 +1,5 @@
-""" 02. Utilizando a estrutura condicional simples, verifique se um número é ímpar e, caso seja, escreva na tela "o número é ímpar".
+""" 02. Utilizando a estrutura condicional simples, verifique se um número é ímpar 
+e, caso seja, escreva na tela "o número é ímpar".
 """
 
 print("Verificando se o número é ímpar...")
