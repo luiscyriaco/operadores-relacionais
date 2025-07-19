@@ -1,4 +1,4 @@
-""" Considerar a situção em que um cliente faz uma determinada compra em uma loja. 
+""" 08. Considerar a situção em que um cliente faz uma determinada compra em uma loja. 
 Ao realizar o pagamento, são oferecidas as seguintes condições para pagamento:
 - Pagamento à vista: 15% de desconto sobre o valor total da compra.
 - Pagamento com cheque pré-datado para 30 dias: 10% de desconto sobre o valor total da compra.
