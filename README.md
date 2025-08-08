@@ -36,13 +36,14 @@ Essas estruturas são classificadas em estruturas simples, composta ou encadeada
 
 A estrutura condicional simples é a mais básica. Ela testa uma única condição e executa um bloco de código apenas se essa condição for True.
 Se a condição for False, o bloco de código dentro do if é simplesmente ignorado, e a execução do programa continua após ele.
-
-Estrutura padrão:
 ```
+# Estrutura padrão:
+
 if condicao:
     Código a ser executado se a condição for True
-
-Exemplo:
+```
+```
+# Exemplo:
 
 if idade >= 18:
     print("Você é maior de idade.")
@@ -51,15 +52,16 @@ if idade >= 18:
 
 A estrutura condicional composta oferece duas opções: um bloco de código para quando a condição é True e outro bloco para quando ela é False.
 Isso garante que sempre haverá uma ação a ser executada, independentemente do resultado da condição.
-
-Estrutura padrão:
 ```
+# Estrutura padrão:
+
 if condicao:
     Código a ser executado se a condição for True
 else:
     Código a ser executado se a condição for False
-
-Exemplo:
+```
+```
+# Exemplo:
 
 if temperatura > 30:
     print("Está muito quente! Beba bastante água.")
@@ -71,9 +73,9 @@ else:
 Quando é preciso testar múltiplas condições em sequência, a estrutura encadeada (ou aninhada, dependendo da forma como é construída) é a ideal.
 Ela usa if para a primeira condição, elif (uma abreviação de "else if") para condições adicionais, e opcionalmente else para um final, caso nenhuma das condições anteriores seja verdadeira.
 O Python avalia as condições na ordem em que são montadas e executa o primeiro bloco cujo if ou elif seja True.
-
-Estrutura padrão:
 ```
+# Estrutura padrão:
+
 if primeira_condicao:
     Código se a primeira condição for True
 elif segunda_condicao:
@@ -82,8 +84,9 @@ elif terceira_condicao:
     Código se a terceira condição for True (e as anteriores forem False)
 else:
     Código se nenhuma das condições acima for True
-
-Exemplo:
+```
+```
+# Exemplo:
 
 pontuacao = 75
 
