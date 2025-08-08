@@ -53,7 +53,7 @@ A estrutura condicional composta oferece duas opções: um bloco de código para
 Isso garante que sempre haverá uma ação a ser executada, independentemente do resultado da condição.
 
 Estrutura padrão:
-
+```
 if condicao:
     Código a ser executado se a condição for True
 else:
@@ -65,7 +65,7 @@ if temperatura > 30:
     print("Está muito quente! Beba bastante água.")
 else:
     print("A temperatura está agradável.")
-
+```
 ## Estrutura Condicional Encadeada/Aninhada: if, elif e else
 
 Quando é preciso testar múltiplas condições em sequência, a estrutura encadeada (ou aninhada, dependendo da forma como é construída) é a ideal.
