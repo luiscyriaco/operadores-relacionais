@@ -73,7 +73,7 @@ Ela usa if para a primeira condição, elif (uma abreviação de "else if") para
 O Python avalia as condições na ordem em que são montadas e executa o primeiro bloco cujo if ou elif seja True.
 
 Estrutura padrão:
-
+```
 if primeira_condicao:
     Código se a primeira condição for True
 elif segunda_condicao:
@@ -95,7 +95,7 @@ elif pontuacao >= 50:
     print("Aprovado! Nota C.")
 else:
     print("Reprovado. Precisa estudar mais.")
-
+```
 Nota: Os ":" usados na montagem da estrutura condicional tem a função de mostrar ao código que o bloco de execução está sujeito a condição estabelecida em if, else ou elif.
 Esse bloco deve conter um recuo aplicando o uso do botão TAB antes do bloco a ser executado, esse recuo recebe o nome de indentação.
 
