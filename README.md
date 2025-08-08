@@ -38,7 +38,7 @@ A estrutura condicional simples é a mais básica. Ela testa uma única condiç�
 Se a condição for False, o bloco de código dentro do if é simplesmente ignorado, e a execução do programa continua após ele.
 
 Estrutura padrão:
-
+```
 if condicao:
     Código a ser executado se a condição for True
 
@@ -46,7 +46,7 @@ Exemplo:
 
 if idade >= 18:
     print("Você é maior de idade.")
-
+```
 ## Estrutura Condicional Composta: if e else
 
 A estrutura condicional composta oferece duas opções: um bloco de código para quando a condição é True e outro bloco para quando ela é False.
